@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+  <h1>Uppgift 2a</h1>
+<script>
+let originalArray = ["  O", "  X"]
+let repeats = 10;
+let repeatedArray = [];
+
+  for (let i = 0; i < repeats; i++){
+  document.write(originalArray[i%2] + (i+1))
+  repeatedArray[i] = originalArray[i%2];
+}
+  console.log(repeatedArray);
+</script>
+    
+</body>
+</html>
